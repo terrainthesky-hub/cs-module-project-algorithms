@@ -4,8 +4,10 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
+    
+    return int(2 * sum(set(arr)) - sum(arr))
 
-    pass
+        
 
 
 if __name__ == '__main__':
